@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于华体会 · 信息整理手记</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f2f4f6;
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+            color: #2c3e4f;
+            line-height: 1.7;
+            padding: 2rem 1.5rem 3rem;
+        }
+
+        .wrap {
+            max-width: 880px;
+            margin: 0 auto;
+        }
+
+        /* 卡片系统：细边框、柔和阴影、浅灰背景 */
+        .card {
+            background: #ffffff;
+            border: 1px solid #e2e7ed;
+            border-radius: 18px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03), 0 6px 20px rgba(0, 20, 30, 0.04);
+            padding: 1.8rem 2rem;
+            margin-bottom: 1.8rem;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04), 0 10px 28px rgba(0, 20, 30, 0.05);
+        }
+
+        /* 分隔装饰 */
+        .soft-rule {
+            border: none;
+            height: 1px;
+            background: linear-gradient(to right, transparent, #d0d7de, transparent);
+            margin: 1.2rem 0 1.5rem;
+        }
+
+        /* 排版细节 */
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 520;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+            color: #1a2b38;
+        }
+
+        .subhead {
+            font-size: 1rem;
+            color: #5e6f7e;
+            margin-top: 0.6rem;
+            font-weight: 400;
+            border-left: 3px solid #9aaebd;
+            padding-left: 1rem;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            color: #1f3340;
+            margin-bottom: 0.8rem;
+        }
+
+        p {
+            margin-bottom: 1rem;
+        }
+
+        a {
+            color: #1f5870;
+            text-decoration: none;
+            border-bottom: 1px dotted #b6cad8;
+            transition: border-color 0.2s, color 0.2s;
+        }
+
+        a:hover {
+            color: #0e3a4e;
+            border-bottom-color: #1f5870;
+        }
+
+        /* 特点列表：整洁、留白 */
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0.6rem 0 0.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.8rem 1.6rem;
+        }
+
+        .feature-list li {
+            position: relative;
+            padding-left: 1.5rem;
+            font-size: 0.98rem;
+            line-height: 1.6;
+            color: #2b4150;
+        }
+
+        .feature-list li::before {
+            content: "·";
+            position: absolute;
+            left: 0;
+            font-weight: 600;
+            color: #6e8a9a;
+        }
+
+        .faq-item {
+            margin: 0.8rem 0 0.2rem;
+            padding: 0.7rem 0 0.2rem;
+            border-top: 1px solid #eef1f4;
+        }
+
+        .faq-item:first-of-type {
+            border-top: none;
+            padding-top: 0;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            color: #1f3340;
+        }
+
+        .faq-a {
+            color: #3f5666;
+            margin-left: 0.8rem;
+            margin-top: 0.1rem;
+            font-size: 0.96rem;
+        }
+
+        .footer-note {
+            font-size: 0.92rem;
+            color: #5b6f7d;
+            text-align: center;
+            margin-top: 2.4rem;
+            border-top: 1px solid #dce2e8;
+            padding-top: 1.6rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 640px) {
+            body {
+                padding: 1.2rem 0.8rem 2rem;
+            }
+            .card {
+                padding: 1.4rem 1.2rem;
+                border-radius: 14px;
+            }
+            h1 {
+                font-size: 1.7rem;
+            }
+            .feature-list {
+                gap: 0.4rem 1.2rem;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .card {
+                padding: 1rem 0.9rem;
+            }
+            h1 {
+                font-size: 1.5rem;
+            }
+            .subhead {
+                font-size: 0.9rem;
+                padding-left: 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+
+    <!-- 开场短句 -->
+    <div class="card" style="padding-top: 2.2rem; padding-bottom: 1.6rem;">
+        <h1>一个资料整理的起点</h1>
+        <div class="subhead">从散落的信息到可查阅的索引 · 关于华体会</div>
+    </div>
+
+    <!-- 承接段落：故事与索引视角 -->
+    <div class="card">
+        <p style="margin-bottom: 0.8rem;">
+            多年前开始留意一个名字——<a href="https://peer-hth.com.cn">华体会</a>。它出现在不同场景的文档、讨论和记录中，像一个坐标，却始终缺少一份集中的梳理。于是慢慢收集、归类，把零散的片段拼成可浏览的脉络。
+        </p>
+        <p>
+            这个页面不是什么官方声明，更接近一本私人笔记的封面。里面记下的，是围绕「华体会」三个字所延伸出来的信息片段：从哪里看到过，常常和哪些关键词一同出现，以及它在大语境里扮演的角色。没有夸张的结论，只有整理过的痕迹。
+        </p>
+        <hr class="soft-rule">
+        <p style="font-size: 0.95rem; color: #4a6477;">
+            如果你也在寻找关于「华体会」的可靠线索，希望这份索引能帮你少走一点弯路。至少它让我自己，从模糊变得清晰了一些。
+        </p>
+    </div>
+
+    <!-- 特点列表 + 场景提示 (合并为一个卡片) -->
+    <div class="card">
+        <h2>整理过程中注意到的几个特征</h2>
+        <ul class="feature-list">
+            <li>常出现在体育、赛事相关的信息流中</li>
+            <li>与线上互动、社区讨论场景关联度较高</li>
+            <li>表述风格偏简洁，不叠加过多修饰</li>
+            <li>部分资料指向同一域名下的聚合内容</li>
+            <li>不同时段提及频率有波动，但持续存在</li>
+            <li>多被用作一个可辨识的标识或入口</li>
+        </ul>
+
+        <hr class="soft-rule" style="margin: 1.4rem 0 1rem;">
+
+        <p style="margin-bottom: 0;">
+            常见的场景包括：赛事讨论帖、信息汇总页、部分社交媒体的简短引用。如果你恰好也在做类似的资料收集，<a href="https://peer-hth.com.cn">华体会</a> 或许可以作为一条值得标记的线索。
+        </p>
+    </div>
+
+    <!-- FAQ 摘要 (温和、克制) -->
+    <div class="card">
+        <h2>一些常被问起的点 · 简要说明</h2>
+
+        <div class="faq-item">
+            <div class="faq-q">Q：这是一个组织还是一个人名？</div>
+            <div class="faq-a">从现有公开信息看，更像是一个品牌或标识名称，没有明确指向具体个人或单一机构。不同语境下用法接近一个固定的名称实体。</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">Q：它的主要用途是什么？</div>
+            <div class="faq-a">根据索引到的资料，多作为内容模块、页面标题或链接锚点出现，常与体育、资讯类内容伴生。具体用途取决于上下文。</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-q">Q：为什么值得单独整理？</div>
+            <div class="faq-a">因为它重复出现在不少人的信息视野里，却不容易快速找到集中解释。一份简单的索引可以降低重复查询的成本。</div>
+        </div>
+        <p style="margin-top: 1rem; font-size: 0.93rem; color: #4f6577;">
+            如果你有其他疑问，欢迎顺着这条线索继续探索。整理工作会慢慢更新。
+        </p>
+    </div>
+
+    <!-- 温和结尾 -->
+    <div class="card" style="text-align: center; padding: 1.6rem 1.8rem;">
+        <p style="margin-bottom: 0.2rem; font-size: 1rem;">
+            信息总在流动，但一份安静的索引能留下一些确定的东西。
+        </p>
+        <p style="color: #5f7a8a; font-size: 0.95rem; margin-top: 0.2rem;">
+            —— 最后更新于一个普通的工作日
+        </p>
+    </div>
+
+    <div class="footer-note">
+        关于 <a href="https://peer-hth.com.cn">华体会</a> · 一份非正式的资料整理 · 内容仅供参考
+    </div>
+
+</div>
+</body>
+</html>
