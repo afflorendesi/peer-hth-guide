@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>澳洲幸运10 · 主题知识说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: linear-gradient(145deg, #fdf3e0 0%, #fbe2c6 40%, #f7cdae 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2.5rem 1.2rem 3.5rem;
+            line-height: 1.7;
+            color: #3b2e26;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(8px);
+            max-width: 820px;
+            width: 100%;
+            border-radius: 48px 24px 48px 24px;
+            box-shadow: 0 25px 40px -16px rgba(170, 100, 60, 0.32);
+            padding: 2.8rem 2.4rem;
+            transition: box-shadow 0.3s ease;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1.6rem 0.8rem 2.4rem;
+            }
+            .card {
+                padding: 2rem 1.2rem;
+                border-radius: 32px 16px 32px 16px;
+            }
+        }
+
+        h1 {
+            font-size: 2.4rem;
+            letter-spacing: -0.01em;
+            font-weight: 620;
+            color: #6e3f29;
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        h1 small {
+            font-size: 1rem;
+            font-weight: 400;
+            color: #b38465;
+            background: #f8e7da;
+            padding: 0.1rem 0.9rem;
+            border-radius: 40px;
+            letter-spacing: 0.3px;
+        }
+
+        .subhead {
+            font-size: 1.1rem;
+            color: #76543e;
+            border-left: 5px solid #dd9f7a;
+            padding-left: 1.2rem;
+            margin-bottom: 2rem;
+            background: linear-gradient(to right, #faf0e8, transparent);
+        }
+
+        .highlight-badge {
+            display: inline-block;
+            background: #dcaa88;
+            color: #2a1e18;
+            padding: 0.2rem 1.2rem;
+            border-radius: 40px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            margin-bottom: 1.6rem;
+            letter-spacing: 0.3px;
+        }
+
+        p, li {
+            color: #3d2c1f;
+        }
+
+        .section-title {
+            font-size: 1.35rem;
+            font-weight: 580;
+            margin: 2rem 0 0.8rem 0;
+            color: #5a3827;
+            border-bottom: 2px solid #edd5c2;
+            padding-bottom: 0.3rem;
+        }
+
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin: 1.2rem 0 1.8rem;
+        }
+
+        .feature-item {
+            flex: 1 1 160px;
+            background: #faf2ea;
+            border-radius: 24px;
+            padding: 1rem 1rem 0.9rem;
+            box-shadow: 0 2px 6px rgba(200, 140, 100, 0.08);
+            border: 1px solid #f2dfd2;
+        }
+
+        .feature-item strong {
+            display: block;
+            font-size: 1.05rem;
+            color: #6e3f29;
+            margin-bottom: 0.25rem;
+        }
+
+        .feature-item span {
+            font-size: 0.95rem;
+            color: #634b3b;
+        }
+
+        .tactful-link {
+            background: #f6e2d3;
+            border-radius: 60px;
+            padding: 0.2rem 1rem;
+            color: #5a3827;
+            font-weight: 500;
+            text-decoration: none;
+            transition: background 0.2s, box-shadow 0.2s;
+            display: inline-block;
+            border: 1px solid #e0c3b0;
+        }
+
+        .tactful-link:hover {
+            background: #ebceba;
+            box-shadow: 0 4px 12px rgba(180, 110, 60, 0.2);
+            border-color: #cfa88b;
+        }
+
+        .faq-mini {
+            margin: 2rem 0 0.8rem;
+            background: #f9efe7;
+            border-radius: 28px;
+            padding: 1.4rem 1.6rem;
+        }
+
+        .faq-mini dt {
+            font-weight: 600;
+            margin-top: 0.6rem;
+            color: #5f3f2d;
+        }
+
+        .faq-mini dd {
+            margin-left: 0.2rem;
+            margin-bottom: 0.6rem;
+            color: #4d382b;
+        }
+
+        .note-muted {
+            background: #eeeadb;
+            padding: 0.8rem 1.2rem;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            color: #4a3f37;
+            margin-top: 2rem;
+            display: inline-block;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: linear-gradient(to right, #e5cfbe, transparent);
+            margin: 1.8rem 0 1rem;
+        }
+
+        a:not(.tactful-link) {
+            color: #9f7259;
+            text-decoration-color: #d6b7a2;
+            text-underline-offset: 3px;
+        }
+
+        footer {
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: #7f6657;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="card">
+    <h1>
+        🧭 澳洲幸运10
+        <small>主题说明</small>
+    </h1>
+    <div class="subhead">
+        从规律观察与玩法结构出发，理解这一数字类主题的内在逻辑。
+    </div>
+
+    <div class="highlight-badge">📘 知识向 · 非指南</div>
+
+    <p>
+        <strong>澳洲幸运10</strong> 是一种基于数字排列与即时开奖机制的竞猜类主题。它的核心结构由 1 至 10 共十个数字构成，每一期随机产生一个最终结果。参与者通常结合历史趋势、区间分布与冷热号变化来形成自己的分析思路。无论你将其视为一种娱乐化的逻辑训练，还是单纯对概率分布感兴趣，理解其基本框架都是有益的。
+    </p>
+    <p>
+        与许多数字类主题相似，<a href="https://web-lucky10.com">澳洲幸运10</a> 的乐趣在于「有限数字中的无限排列组合」。十个数字虽然简单，但结合位置、和值、单双、大小等衍生维度后，可以衍生出多种观察角度——这也是它吸引许多数据分析爱好者的原因之一。
+    </p>
+
+    <div class="section-title">✨ 几个值得关注的维度</div>
+    <div class="feature-grid">
+        <div class="feature-item">
+            <strong>📊 冷热分布</strong>
+            <span>统计各个数字的出现频率，识别短期热门与长期冷门，辅助判断趋势平衡点。</span>
+        </div>
+        <div class="feature-item">
+            <strong>🔁 区间节律</strong>
+            <span>将数字划分为前区 (1-5) 与后区 (6-10)，观察区间切换的节奏与连续性。</span>
+        </div>
+        <div class="feature-item">
+            <strong>⚖️ 单双/大小</strong>
+            <span>基础二分法：单双比例与大小比例可构成长期稳定性参考，适合宏观复盘。</span>
+        </div>
+        <div class="feature-item">
+            <strong>🧩 和值跨度</strong>
+            <span>当期数字与上一期的差值、和值尾数等，可作为微观波动参考维度。</span>
+        </div>
+    </div>
+
+    <div class="section-title">💡 使用思路建议</div>
+    <p>
+        — 观察时建议以 30-50 期为一个统计窗口，避免过度解读偶然波动。<br>
+        — 将冷热分析与区间节律结合，而不是仅依赖单一指标。<br>
+        — 为自己设定清晰的观察边界（例如每天固定时段复盘），保持理性节奏。<br>
+        — 任何数字类主题都不存在「必然规律」，所有分析都只是基于历史数据的概率推演。
+    </p>
+
+    <div class="faq-mini">
+        <dl>
+            <dt>❓ 澳洲幸运10 和传统数字游戏有何不同？</dt>
+            <dd>它采用即时开奖形式，每期独立随机，且数字范围小 (1-10)，更适合短周期趋势观察。</dd>
+            <dt>❓ 是否存在「准确预测」的方法？</dt>
+            <dd>不存在。所有分析方法都无法改变独立随机事件的本质，理性看待尤为重要。</dd>
+            <dt>❓ 最适合什么样的人关注？</dt>
+            <dd>对数字统计、概率分布、轻量级复盘感兴趣，且能保持客观心态的爱好者。</dd>
+        </dl>
+    </div>
+
+    <hr>
+
+    <p>
+        如果你想系统了解 <a href="https://web-lucky10.com" class="tactful-link">澳洲幸运10</a> 的基础数据、历史走势以及更多玩家分享的复盘视角，可以访问相应站点获取信息。网站提供基础数据展示与社区讨论，但请始终记住：任何数字类主题都应以娱乐和自我约束为前提。
+    </p>
+
+    <div class="note-muted">
+        ⚠️ 提示：本文档仅作知识介绍，不鼓励过度投入。请根据自身情况合理分配时间和精力。
+    </div>
+
+    <footer>
+        — 基于主题内容整理 · 仅供参考 —
+    </footer>
+</div>
+</body>
+</html>
